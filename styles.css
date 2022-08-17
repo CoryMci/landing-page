@@ -27,7 +27,7 @@ ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
-    display:flex;
+    display: flex;
     gap: 32px;
 }
 
@@ -36,3 +36,42 @@ text-decoration: none;
 font-size: 18px;
 color: #E5E7EB;
 }
+
+.splash {
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+    gap: 64px;
+}
+
+.title{
+font-size: 48px;
+color: #F9FAF8;
+font-weight: 900;
+}
+
+.splash-left {
+    font-size: 18px;
+    color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    width:400px;
+}
+
+.splash img{
+    height: auto;
+    width: 400px;
+}
+
+.sign-up{
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 8px 32px;
+    width: fit-content;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-width: 0px;
+}
+
