@@ -1,0 +1,9 @@
+.body{
+background-color:aquamarine;
+}
+
+.header,
+.footer,
+.splash{
+    background-color: #1F2937;
+}
