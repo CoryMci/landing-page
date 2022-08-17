@@ -102,6 +102,10 @@ font-weight: 900;
     border: 4px solid #3882F6;
 }
 
+.subtitle{
+    text-align: center;
+}
+
 .quote-section {
     background-color: #E5E7EB;
     padding:200px;
@@ -114,4 +118,37 @@ font-weight: 900;
     text-align: end;
     font-size: 24px;
     font-weight: bold;
+}
+
+.banner {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 32px;
+    border-radius:10px;
+    width: 600px;
+    justify-content: space-around;
+    gap: 64px;
+    margin: 64px auto;
+}
+
+.call {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.button {
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 8px 32px;
+    width: fit-content;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: 2px solid #F9FAF8;
+}
+
+.footer{
+    color: #F9FAF8;
+    padding: 32px 0px;
+    text-align: center;
 }
